@@ -1,3 +1,8 @@
-*
-!public/
-!.gitignore
+# Ignore everything in the public directory
+public/*
+
+# Do not ignore the products.json file in the storage directory
+!storage/app/public/products.json
+
+# Ignore the public directory but keep the following files
+!public/.gitignore
