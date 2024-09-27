@@ -61,12 +61,10 @@ Installation
 
 ---
 
-<div class="video-container">
-    <h4>Product Management Feature</h4>
-    <video class="video-responsive" controls aria-label="Product demonstration video">
-        <source src="./public/products.mp4" type="video/mp4">
-        Your browser does not support the video tag. Please consider downloading the video directly from [this link](./public/products.mp4).
-    </video>
+#### Product Management Feature
+
+<div style="text-align: center;">
+    <img src="./public/products.gif" alt="Product Management Feature" width="640" height="360">
 </div>
 
 
