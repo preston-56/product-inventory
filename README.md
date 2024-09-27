@@ -1,5 +1,5 @@
 
-## ProdTack
+## ProdTrack
 
 #### Overview
 This Laravel project provides a form to submit product data, which is saved in a JSON file. The submitted data is displayed in a table with calculated values and the ability to edit and delete entries.
