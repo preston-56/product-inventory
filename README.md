@@ -58,6 +58,15 @@ Installation
 - PUT /products/{id}: Update an existing product (update).
 - DELETE /products/{id}: Delete a product (destroy).
 ```
+
+---
+### Product Management Feature
+
+<video width="640" height="360" controls>
+    <source src="./public/products.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
 ### Usage
 - Submit product data via the form.
 - Data is saved to `products.json`and displayed in a table.
