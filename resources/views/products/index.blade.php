@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'ProdTack')
+@section('title', 'ProdTrack')
 
 @section('content')
     <div class="container mt-5">
@@ -62,11 +62,11 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title">Confirm Deletion</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+                        <button type="button" class="close" onclick="closeModal()" aria-label="Close">&times;</button>
                     </div>
                     <div class="modal-body">Are you sure you want to delete this product?</div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-secondary" onclick="closeModal()">Cancel</button>
                         <form id="deleteForm" method="POST" action="" style="display: inline;">
                             @csrf
                             @method('DELETE')
@@ -76,6 +76,13 @@
                 </div>
             </div>
         </div>
+
+        <script>
+            function closeModal() {
+                $('#deleteModal').modal('hide');
+            }
+        </script>
+
 
         <!-- Include jQuery and custom scripts -->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
