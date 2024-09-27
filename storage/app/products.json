@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Wireless Mouse",
+        "quantity": 50,
+        "price": 25.93,
+        "datetime_submitted": "2024-09-25 19:57:44",
+        "total_value": 1296.5
+    },
+    {
+        "id": 2,
+        "name": "Mechanical Keyboard",
+        "quantity": 30,
+        "price": 75,
+        "datetime_submitted": "2024-09-25 02:12:44",
+        "total_value": 2250
+    },
+    {
+        "id": 3,
+        "name": "24\" LED Monitor",
+        "quantity": 20,
+        "price": 199.99,
+        "datetime_submitted": "2024-09-25 02:13:16",
+        "total_value": 3999.8
+    },
+    {
+        "id": 4,
+        "name": "USB-C Hub",
+        "quantity": 40,
+        "price": 45.5,
+        "datetime_submitted": "2024-09-25 02:14:43",
+        "total_value": 1820
+    },
+    {
+        "id": 5,
+        "name": "Steps to Christ",
+        "quantity": 15,
+        "price": 9.9,
+        "datetime_submitted": "2024-09-25 02:26:49",
+        "total_value": 148.5
+    },
+    {
+        "id": 7,
+        "name": "Prophets and Kings",
+        "quantity": 8,
+        "price": 14.99,
+        "datetime_submitted": "2024-09-25 02:22:01",
+        "total_value": 119.92
+    },
+    {
+        "id": 8,
+        "name": "The Desire of Ages",
+        "quantity": 12,
+        "price": 16.5,
+        "datetime_submitted": "2024-09-25 02:22:51",
+        "total_value": 198
+    },
+    {
+        "id": 9,
+        "name": "The Acts of the Apostles",
+        "quantity": 10,
+        "price": 13.99,
+        "datetime_submitted": "2024-09-27 13:04:52",
+        "total_value": 139.9
+    },
+    {
+        "id": 10,
+        "name": "The Great Controversy",
+        "quantity": 12,
+        "price": 17.25,
+        "datetime_submitted": "2024-09-27 13:05:05",
+        "total_value": 207
+    }
+]
